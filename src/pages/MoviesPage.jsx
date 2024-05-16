@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { SearchBar } from "../components/SearchBar/SearchBar";
-import { fetchByQuery } from "../api";
+import { fetchByQuery } from "../components/api";
 import { MovieList } from "../components/MovieList/MovieList";
 import { useSearchParams } from "react-router-dom";
 import { Loader } from "../components/Loader/Loader";

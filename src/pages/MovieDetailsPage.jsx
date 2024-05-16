@@ -7,7 +7,7 @@ import {
   useParams,
 } from "react-router-dom";
 
-import { fetchByID } from "../api";
+import { fetchByID } from "../components/api";
 import { Loader } from "../components/Loader/Loader";
 import { FaArrowLeft } from "react-icons/fa";
 import { MovieDetailsTitle } from "../components/MovieDetailsTitle/MovieDetailsTitle";

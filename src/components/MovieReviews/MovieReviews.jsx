@@ -2,7 +2,7 @@ import { useParams } from "react-router-dom";
 import css from "./MovieReviews.module.css";
 import { useEffect, useState } from "react";
 import { Loader } from "../Loader/Loader";
-import { fetchInfo } from "../Api/fetchMovieApi";
+import { fetchInfo } from "../api";
 import { ReviewItem } from "../MovieReviewsItem/MovieReviewsItem";
 import { ErrorMessage } from "../ErrorMessage/ErrorMessage";
 
