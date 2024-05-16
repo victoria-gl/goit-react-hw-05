@@ -1,0 +1,21 @@
+.div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 200px;
+  text-align: center;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  transition: 350ms;
+  height: 380px;
+  &:hover {
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    scale: 1.1;
+  }
+}
+.img {
+  margin-bottom: 8px;
+}
+
+.actor {
+  color: rgb(219, 126, 4);
+}

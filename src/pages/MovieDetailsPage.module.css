@@ -1,0 +1,46 @@
+.link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  color: #000;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 700;
+  width: 70px;
+  transition: 250ms;
+  &:hover {
+    scale: 1.1;
+    text-decoration: underline;
+  }
+}
+.link:nth-last-child(1) {
+  width: 100px;
+}
+.linkDiv {
+  padding: 20px 0 20px 70px;
+  display: flex;
+  gap: 40px;
+
+  align-items: center;
+  justify-content: flex-start;
+  border-bottom: 2px solid #d3d3d3;
+}
+.linkArrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  width: 70px;
+  height: 25px;
+  margin: 20px 0 0 20px;
+  &:hover {
+    color: rgb(255, 153, 0);
+  }
+}
+.active {
+  color: rgb(255, 153, 0);
+}
+.icon {
+  margin-right: 10px;
+}
